@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="header" id="header">
+          <div class="container">
+            <div class="header__top"><a class="logo" href="#"><img class="logo__img" src="images/general/logo.png" alt="Логотип"></a>
+              <div class="search-prev">
+                <input class="search-prev__field" type="text" placeholder="Поиск">
+                <button class="search-prev__submit" type="submit">
+                  <svg class="svg-icon icon-search search-prev__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="contact-prev"><a class="contact-prev__link" href="tel:+79628383314">
+                  <svg class="svg-icon icon-phone contact-prev__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                  </svg><span class="contact-prev__text">+7 (962) 838-33-14</span></a><a class="contact-prev__link" href="tel:+73832583314">
+                  <svg class="svg-icon icon-phone contact-prev__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                  </svg><span class="contact-prev__text">+7 (383) 258-33-14</span></a></div>
+              <div class="timetable timetable--mobile">
+                <p class="timetable__item"><span class="timetable__item timetable__item--font">Пн-Чт</span> 11:00-22:00</p>
+                <p class="timetable__item"><span class="timetable__item timetable__item--font">Пт-Сб</span> 11:00-23:00</p>
+                <p class="timetable__item"><span class="timetable__item timetable__item--font">Вс</span> 11:00-22:00</p>
+              </div><a class="basket-prev" href="#">
+                <svg class="svg-icon icon-basket basket-prev__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#basket"></use>
+                </svg><span class="basket-prev__count">2</span></a>
+              <div class="sandwich"><a class="sandwich__open-btn" href="#"><span class="sandwich__line"></span><span class="sandwich__line"></span><span class="sandwich__line"></span></a>
+                <div class="sandwich__content"><a class="sandwich__close-btn" href="javascript:void(0);">
+                    <svg class="svg-icon icon-close sandwich__close-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                    </svg></a>
+                  <nav class="sandwich-nav">
+                    <ul class="sandwich-nav__list">
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#header">Главная</a></li>
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#catalog">Каталог</a></li>
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#discount">Акции</a></li>
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#about">О компании</a></li>
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#map">Карта/Контакты</a></li>
+                      <li class="sandwich-nav__item"><a class="sandwich-nav__link" href="#">Доставка и оплата</a></li>
+                    </ul>
+                  </nav>
+                  <div class="contact-prev sandwich-contacts"><a class="contact-prev__link sandwich-contacts__link" href="tel:+79628383314">
+                      <svg class="svg-icon icon-phone sandwich-contacts__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                      </svg><span class="sandwich-contacts__text">+7 (962) 838-33-14</span></a><a class="contact-prev__link sandwich-contacts__link" href="tel:+73832583314">
+                      <svg class="svg-icon icon-phone sandwich-contacts__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                      </svg><span class="sandwich-contacts__text">+7 (383) 258-33-14</span></a></div>
+                  <div class="timetable sandwich__timetable">
+                    <p class="timetable__item"><span class="timetable__item timetable__item--font">Пн-Чт</span> 11:00-22:00</p>
+                    <p class="timetable__item"><span class="timetable__item timetable__item--font">Пт-Сб</span> 11:00-23:00</p>
+                    <p class="timetable__item"><span class="timetable__item timetable__item--font">Вс</span> 11:00-22:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item"><a class="main-nav__link" href="#header">Главная</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#catalog">Каталог</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#">Доставка и оплата</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#discount">Акции</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#about">О компании</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="#map">Карта/Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="banner-slider">
+            <div class="swiper-container banner-slider__container">
+              <div class="swiper-wrapper banner-slider__wrapper">
+                <div class="swiper-slide banner-slider__slide">
+                  <div class="banner-item banner-item--bg" style="background-image: url('images/content/banner-item1.png');">
+                    <div class="banner-item__info">
+                      <h1 class="banner-item__title">Осуществляем доставку по городу Бердск, Новому поселку и Академгородку</h1>
+                      <p class="banner-item__desc">Бесплатная доставка от: <br><span class="banner-item__desc--font">600₽</span> - город Бердск <br><span class="banner-item__desc--font">800₽</span> - Новый поселок <br><span class="banner-item__desc--font">1000₽</span> - Академгородок <br>Все что ниже доставка <span class="banner-item__desc--font">150₽</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide banner-slider__slide">
+                  <div class="banner-item" style="background-image: url('images/content/banner-item2.png'); background-position: center;">
+                    <div class="banner-item__info">
+                      <h4 class="banner-item__title banner-item__title--width-mobile">Самовывоз и день рождение</h4>
+                      <p class="banner-item__subtitle">10% скидка</p>
+                    </div>
+                    <div class="banner-item__discount"><span class="banner-item__discount-text">10%</span></div>
+                  </div>
+                </div>
+                <div class="swiper-slide banner-slider__slide">
+                  <div class="banner-item" style="background-image: url('images/content/banner-item3.png'); background-position: right center;">
+                    <div class="banner-item__info">
+                      <h4 class="banner-item__title banner-item__title--width">Акция! <br>Назовите кодовое слово и получите <span class="banner-item__title banner-item__title--color">вок в подарок</span></h4><span class="banner-item__watermark">***-</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide banner-slider__slide">
+                  <div class="banner-item" style="background-image: url('images/content/banner-item4.png');">
+                    <div class="banner-item__info">
+                      <h4 class="banner-item__title banner-item__title--width">Принимаем предзаказы <span class="banner-item__title banner-item__title--color">на корпоративы</span></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide banner-slider__slide">
+                  <div class="banner-item" style="background-image: url('images/content/banner-item5.png');">
+                    <div class="banner-item__info">
+                      <h4 class="banner-item__title banner-item__title--width">Вок в подарок при заказе <span class="banner-item__title banner-item__title--color">от 1000 ₽</span></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next button-arrow button-arrow-next banner-slider__next">
+                <svg class="svg-icon icon-arrow button-arrow__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                </svg>
+              </div>
+              <div class="swiper-button-prev button-arrow button-arrow-prev banner-slider__prev">
+                <svg class="svg-icon icon-arrow button-arrow__icon">
+                  <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                </svg>
+              </div>
+              <div class="swiper-pagination banner-slider__pagination"></div>
+            </div>
+          </div>
+        </div>
+        <div class="catalog" id="catalog">
+          <div class="container">
+            <div class="catalog__wrap">
+              <aside class="filter">
+                <div class="filter__header"><span class="filter__title">Категории товаров</span></div>
+                <nav class="filter-nav">
+                  <ul class="filter-nav__list">
+                    <li class="filter-nav__item">
+                      <div class="filter-nav__link"><span class="filter-nav__text">Сэндвичи</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="filter-nav__item">
+                      <div class="filter-nav__link"><span class="filter-nav__text">Бургеры</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="filter-nav__item">
+                      <div class="filter-nav__link">
+                        <svg class="svg-icon icon-check filter-nav__check">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#check"></use>
+                        </svg><span class="filter-nav__text">Закуски</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg>
+                      </div>
+                      <ul class="filter-nav__sublist">
+                        <li class="filter-nav__subitem">Кесадилья мясная</li>
+                        <li class="filter-nav__subitem">Кесадилья сырная</li>
+                      </ul>
+                    </li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Вок</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Паста</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Тайский рис</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Супы</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Роллы</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Салаты</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Морепродукты</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Десерты</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                    <li class="filter-nav__item"><a class="filter-nav__link" href="#"><span class="filter-nav__text">Напитки</span>
+                        <svg class="svg-icon icon-arrow filter-nav__arrow">
+                          <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                        </svg></a></li>
+                  </ul>
+                </nav>
+              </aside>
+              <div class="catalog__content">
+                <h4 class="catalog__title">Наиболее популярные</h4>
+                <div class="catalog__main">
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item1.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Мидии <br>в сливочном соусе</h5><span class="catalog-item__price">350 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item2.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Торт <br>Прага</h5><span class="catalog-item__price">150 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item3.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Куриные крылья <br>в соусе BBQ</h5><span class="catalog-item__price">240 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item4.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Паназиатская лапша <br>вок с креветкой</h5><span class="catalog-item__price">310 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item5.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Торт <br>Тирамису</h5><span class="catalog-item__price">150 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item6.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Креветки <br>в панцире</h5><span class="catalog-item__price">320 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item7.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Креветки <br>в пряном масле</h5><span class="catalog-item__price">410 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item8.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Цезарь <br>с курицей</h5><span class="catalog-item__price">290 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="catalog-item">
+                    <div class="catalog-item__img"><img class="catalog-item__pic" src="images/content/catalog-item9.jpg" alt=""></div>
+                    <div class="catalog-item__main">
+                      <h5 class="catalog-item__title">Цезарь <br>с креветками</h5><span class="catalog-item__price">370 ₽</span>
+                      <div class="counter">
+                        <button class="counter__btn counter__prev" type="button">-</button>
+                        <input class="counter__field" type="text" value="1">
+                        <button class="counter__btn counter__next" type="button">+</button>
+                      </div>
+                      <button class="catalog-item__add" type="button">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="pagination"><a class="pagination__link pagination__back" href="#">
+                    <svg class="svg-icon icon-arrow pagination__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a><a class="pagination__link pagination__link--active" href="#"><span class="pagination__link-text">1</span></a><a class="pagination__link" href="#"><span class="pagination__link-text">2</span></a><a class="pagination__link" href="#"><span class="pagination__link-text">3</span></a><a class="pagination__link" href="#"><span class="pagination__link-text">4</span><a class="pagination__link pagination__next" href="#">
+                      <svg class="svg-icon icon-arrow pagination__arrow">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                      </svg></a></a></div>
+              </div>
+            </div>
+            <div class="discount" id="discount">
+              <div class="discount-item">
+                <div class="discount-item__left">
+                  <div class="discount-item__circle"><span class="discount-item__img">10%</span></div>
+                </div>
+                <div class="discount-item__main">
+                  <p class="discount-item__text">Самовывоз <br>и день рождение 10% скидка</p>
+                </div>
+              </div>
+              <div class="discount-item">
+                <div class="discount-item__left">
+                  <div class="discount-item__circle"><span class="discount-item__img">***-</span></div>
+                </div>
+                <div class="discount-item__main">
+                  <p class="discount-item__text">Акция назовите кодовое слово и получите вок в подарок</p>
+                </div>
+              </div>
+              <div class="discount-item">
+                <div class="discount-item__left">
+                  <div class="discount-item__circle">
+                    <svg class="svg-icon icon-discount-icon1 discount-item__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#discount-icon1"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="discount-item__main">
+                  <p class="discount-item__text">Принимаем предзаказы на корпоративы </p>
+                </div>
+              </div>
+              <div class="discount-item">
+                <div class="discount-item__left">
+                  <div class="discount-item__circle">
+                    <svg class="svg-icon icon-discount-icon2 discount-item__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#discount-icon2"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="discount-item__main">
+                  <p class="discount-item__text">Вок в подарок <br>при заказе от 1000 ₽ </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about" id="about">
+          <div class="container">
+            <div class="about__wrap">
+              <h3 class="about__title">О компании</h3>
+              <p class="about__desc">Мы молодая, активно растущая компания, любим и знаем своё дело и стремимся завоевать вашу любовь. Мы смело утверждаем, что готовим не только вкусные, но и полезные суши, потому что не используем пищевые добавки в виде усилителей вкуса. Мы с первых дней своего открытия и по сей день используем только качественные, дорогие продукты. С такими продуктами работать приятно, а от хорошего настроения и роллы получаются вкуснее. Наверно, в этом и есть секрет нашего успеха и активного развития. <br><br>Первый филиал мы открыли в 2016 году. Наша команда состояла из двух поваров, курьера и директора. Сарафанное радио сделало своё дело (мы до сих пор считаем, что это самый главный и лучший критерий нашего развития) – за четыре года организовали ещё 16 филиалов! Мы рады, что у наших клиентов теперь есть выбор не только заказать доставку, но и забрать самовывозом, по пути домой на 10% дешевле. Мы заботимся, что бы наша продукция  была по карману каждому. Для этого, по возможности, заключаем договора напрямую с изготовителями и придумываем ролы из простых, но качественных ингридиентов.</p>
+            </div>
+            <div class="about__stock">
+              <h3 class="about__title">Наш ассортимент</h3>
+              <p class="about__desc">В нашем магазине вы всегда можете купить арахис, кешью, грецкие орехи и миндаль. <br>Также вы сможете найти кедровый и бразильский орех, попробовать макадемию и насладиться прекрасным вкусом фисташек и фундука.</p>
+            </div>
+          </div>
+        </div>
+        <div class="map" id="map" style="background-image: url('images/content/map.jpg')">
+          <div class="map__wrap">
+            <div class="container">
+              <div class="map__info">
+                <div class="map__logo"><img class="map__logo-img" src="images/general/logo.png" alt=""></div>
+                <div class="contacts-block">
+                  <div class="contacts-block__item">
+                    <div class="contacts-block__circle">
+                      <svg class="svg-icon icon-location contacts-block__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#location"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts-block__info">
+                      <p class="contacts-block__text">Белокаменный переулок 8, Бердск</p>
+                    </div>
+                  </div>
+                  <div class="contacts-block__item">
+                    <div class="contacts-block__circle">
+                      <svg class="svg-icon icon-phone contacts-block__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#phone"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts-block__info contacts-block__info--flex"><a class="contacts-block__text contacts-block__phone" href="tel:+79628383314">+7 (962) 838-33-14</a><a class="contacts-block__text contacts-block__phone" href="tel:+73832583314">+7 (383) 258-33-14</a></div>
+                  </div>
+                  <div class="contacts-block__item">
+                    <div class="contacts-block__circle">
+                      <svg class="svg-icon icon-mail contacts-block__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#mail"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts-block__info"><a class="contacts-block__text contacts-block__email" href="mailto:spektrvkusaberdsk@mail.com">spektrvkusaberdsk@mail.com</a></div>
+                  </div>
+                  <div class="contacts-block__item">
+                    <div class="contacts-block__circle">
+                      <svg class="svg-icon icon-lock contacts-block__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#lock"></use>
+                      </svg>
+                    </div>
+                    <div class="contacts-block__info">
+                      <p class="contacts-block__text">Пн-Чт <span class="contacts-block__text contacts-block__text--fw">11:00-22:00</span> <br>Пт-Сб <span class="contacts-block__text contacts-block__text--fw">11:00-23:00</span> <br>Вс <span class="contacts-block__text contacts-block__text--fw">11:00-22:00</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="container">
+            <div class="footer__side footer__side--mobile"><a class="logo footer__logo" href="#"><img class="logo__img footer__logo-img" src="images/general/logo.png" alt=""></a>
+              <p class="footer__copy">© 2020 Все права защищены</p>
+              <div class="footer-developer footer-developer--mobile-show"><span class="footer-developer__title">Разработка сайта</span>
+                <div class="footer-developer__design"><span class="footer-developer__text">Дизайн</span>
+                  <svg class="svg-icon icon-telegram footer-developer__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#telegram"></use>
+                  </svg><span class="footer-developer__text">@Nikolai_Gurkov </span>
+                </div><span class="footer-developer__layout">Верстка @______________</span>
+              </div>
+            </div>
+            <nav class="footer-nav">
+              <div class="footer-nav__side"><a class="footer-nav__link" href="#">Главная</a><a class="footer-nav__link" href="#">Товары</a><a class="footer-nav__link" href="#">Доставка и оплата</a><a class="footer-nav__link" href="#">Акции</a><a class="footer-nav__link" href="#">О компании</a><a class="footer-nav__link" href="#">Карта/Контакты</a></div>
+              <div class="footer-nav__side"><a class="footer-nav__link" href="#">Сэндвичи </a><a class="footer-nav__link" href="#">Бургеры</a><a class="footer-nav__link" href="#">Закуски</a><a class="footer-nav__link" href="#">Вок</a><a class="footer-nav__link" href="#">Паста</a><a class="footer-nav__link" href="#">Тайский рис</a></div>
+              <div class="footer-nav__side"><a class="footer-nav__link" href="#">Супы</a><a class="footer-nav__link" href="#">Закуски</a><a class="footer-nav__link" href="#">Роллы</a><a class="footer-nav__link" href="#">Салаты</a><a class="footer-nav__link" href="#">Морепродукты</a><a class="footer-nav__link" href="#">Десерты</a><a class="footer-nav__link" href="#">Напитки</a></div>
+            </nav>
+            <div class="footer__side footer__side--right"><a class="footer__phone" href="tel:+79628383314">+7 (962) 838-33-14</a>
+              <div class="footer-politic"><a class="footer-politic__link" href="#">Политика конфедициальности</a><a class="footer-politic__link" href="#">Соглашение на обработку персональных данных</a></div>
+              <div class="footer-developer footer-developer--mobile-hide"><span class="footer-developer__title">Разработка сайта</span>
+                <div class="footer-developer__design"><span class="footer-developer__text">Дизайн</span>
+                  <svg class="svg-icon icon-telegram footer-developer__icon">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#telegram"></use>
+                  </svg><span class="footer-developer__text">@Nikolai_Gurkov </span>
+                </div><span class="footer-developer__layout">Верстка @______________</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
